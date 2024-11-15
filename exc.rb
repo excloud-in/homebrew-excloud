@@ -25,6 +25,7 @@ class Exc < Formula
 
   def install
     bin.install "exc"
+    generate_completions_from_executable(bin/"exc", "completion")
   end
 
   test do
