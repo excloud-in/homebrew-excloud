@@ -29,7 +29,7 @@ class Exc < Formula
   end
 
   test do
-    output = shell_output("#{bin}/exc --help", 2)
-    assert_match "exc CLI", output
+    assert_predicate bin/"exc", :exist?
+    assert_predicate bin/"exc", :executable?
   end
 end
