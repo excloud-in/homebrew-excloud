@@ -6,20 +6,20 @@ class Exc < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/excloud-in/cli/releases/download/v1.0.1/exc-darwin-arm64.tar.gz"
-      sha256 "e3da50806bba2a86fa996386e9f364bddc535efddc51a635405a788d0963b52a"
+      sha256 "8788eac46a396814a4cf1c2be75e539ea2488368aaf93a20ca849c1578632983"
     else
       url "https://github.com/excloud-in/cli/releases/download/v1.0.1/exc-darwin-amd64.tar.gz"
-      sha256 "061864547f0982e4e9871c0530239c0dd5acaf0e23fc64554cb4343e7c9f498d"
+      sha256 "04ecc1bf51726ad81fa3eb19d8dc4e3a2085b120114ca2746b1fc927f20caa1a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/excloud-in/cli/releases/download/v1.0.1/exc-linux-arm64.tar.gz"
-      sha256 "5738429da9288dd0b7878c3ea3758b34ba36fd081526af899687bfffd2b31a55"
+      sha256 "74c117c2c5c91a78379dc3efb49323a75d4c1a0756e2d0dd00e6f93f80a0f719"
     else
       url "https://github.com/excloud-in/cli/releases/download/v1.0.1/exc-linux-amd64.tar.gz"
-      sha256 "b2a537e3a58a9b254cd760a0684b2bd7edd6a53b0d00cd4880a3b64c849fc85a"
+      sha256 "831e9b9eed13683e30817690c14ddd22f00c5a2e0bf4c5857e5bbb3d103dca3b"
     end
   end
 
