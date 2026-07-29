@@ -1,6 +1,6 @@
 class Exc < Formula
   desc "CLI for interacting with ExCloud"
-  homepage "https://github.com/excloud-in/cli"
+  homepage "https://github.com/excloud-dev/cli"
   version "v1.9.2"
 
   on_macos do
